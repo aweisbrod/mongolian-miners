@@ -1,0 +1,132 @@
+/* universal styles */
+html {
+    font-size: 14pt;
+}
+
+/* media queries */
+@media only screen and (max-width: 575px) {
+    p {
+        font-size: 100%;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    h3 {
+        font-size: 125%;
+    }
+
+    h4 {
+        font-size: 125%;
+    }
+
+    h5 {
+        font-size: 80%;
+    }
+
+    h6 {
+        font-size: 80%;
+    }
+
+    .pull-quote {
+        font-size: 125%;
+    }
+
+    /* mapbox window size */
+    #map {
+        width: 100%; 
+        height: 60vw;
+    }
+
+    /* audio player */
+
+    audio {
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (min-width: 576px) {
+    .pull-quote {
+        font-size: 200%;
+    }
+
+    /* mapbox window size */
+    #map {
+        width: 100%; 
+        height: 40vw;
+    }
+
+}
+
+
+/* div styles */
+.bodyPadding {
+    padding-top: 40px;
+}
+
+
+/* text styles */
+
+h2 {
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 10px 10px 0px 0px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 125%;
+    color: goldenrod;
+}
+
+h4 {
+    color: goldenrod;
+    font-weight: bold;
+}
+
+h5 {
+    text-transform: uppercase;
+    color: grey;
+}
+
+h6 {
+    font-weight: 300;
+    color: grey;;
+}
+
+
+
+.pull-quote {
+
+    font-weight: 900;
+    color: goldenrod;
+}
+
+.attribution {
+    padding: 0px 80px 0px 80px;
+}
+
+figcaption {
+    color: grey;
+    font-size: 80%;
+    padding: 10px 20px 0px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+footer {
+    background-color: gray;
+    color: white;
+}
+
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 20px 20px;
+}
